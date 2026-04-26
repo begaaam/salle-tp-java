@@ -28,6 +28,12 @@ public class User {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", age=" + age + ", salary=" + salary + "]";
+	}
+	
 	
   
 }
