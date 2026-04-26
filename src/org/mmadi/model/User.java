@@ -28,6 +28,9 @@ public class User {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+	public void increaseSalary(int amount) {
+		this.salary +=amount;
+	}
 
 	@Override
 	public String toString() {
