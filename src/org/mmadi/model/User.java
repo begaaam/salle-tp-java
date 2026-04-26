@@ -30,6 +30,9 @@ public class User {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+	public void oneMemoryYear() {
+		this.age++;
+	}
 
 	@Override
 	public String toString() {
